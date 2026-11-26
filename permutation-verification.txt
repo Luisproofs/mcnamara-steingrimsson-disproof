@@ -1,0 +1,20 @@
+$ python3 verify_permutation.py
+Length-50 witness. Ranks 19, 20, 21: 78468 78022 78544
+Length-160 witness. Ranks 61, 62, 63: 318760232883761 314759367160492 318217445359443
+
+$ python3 independent_permutation.py
+Canonical classes vs literal subsequences: 145 small intervals
+Length-50 witness matches all 33 ranks and literal one-line top.
+Witness top length 160; longest decreasing subsequence 60
+Both complete one-line endpoint pairs and rank certificates agree.
+All 101 rank sizes agree; interval cardinality 18013230278377440
+Ranks 61, 62, 63: 318760232883761 314759367160492 318217445359443
+
+$ python3 verify_family.py
+Exact means, variances, rational tilts, and the L=80 tail comparison passed.
+L=1,2,3 are unimodal. Lengths 29L, 31L, 33L certify every L from 4 through 79.
+
+$ python3 verify_by_deletion.py
+Length-50 top. All ranks by literal deletion: [1, 16, 96, 398, 1208, 2878, 5695, 9804, 15208, 21769, 29209, 37189, 45431, 53737, 61835, 69166, 74872, 78185, 79052, 78468, 78022, 78544, 78548, 74290, 62696, 44927, 26305, 12180, 4310, 1115, 197, 21, 1]
+Total distinct interval permutations: 1125373
+

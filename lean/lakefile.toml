@@ -1,0 +1,5 @@
+name = "pattern_interval"
+version = "1.0.0"
+defaultTargets = ["PatternInterval"]
+[[lean_lib]]
+name = "PatternInterval"

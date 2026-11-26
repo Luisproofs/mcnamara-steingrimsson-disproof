@@ -1,0 +1,8 @@
+Build completed successfully (20 jobs).
+PatternInterval.consecutive_rank_sizes :
+  PatternInterval.HasCard (PatternInterval.RankLevel PatternInterval.bottom PatternInterval.top 19) 78468 ∧
+    PatternInterval.HasCard (PatternInterval.RankLevel PatternInterval.bottom PatternInterval.top 20) 78022 ∧
+      PatternInterval.HasCard (PatternInterval.RankLevel PatternInterval.bottom PatternInterval.top 21) 78544
+PatternInterval.disproof : ¬PatternInterval.IntervalRankUnimodality
+'PatternInterval.consecutive_rank_sizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PatternInterval.disproof' depends on axioms: [propext, Classical.choice, Quot.sound]

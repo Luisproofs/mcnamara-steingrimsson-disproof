@@ -1,0 +1,4 @@
+valley 38 15 (1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1) (1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1) (2, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1)
+deleted 0 tops 1 comparable intervals 70
+deleted 1 tops 18 comparable intervals 1260
+deleted 2 tops 148 comparable intervals 10346
