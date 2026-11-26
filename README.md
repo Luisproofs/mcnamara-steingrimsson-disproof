@@ -58,6 +58,8 @@ The competing construction uses a top permutation of length 109,118. Our indepen
 - [Independent disproof by aadrianvv](https://github.com/1337isnot1337/solved-conjectures/pull/651)
 - [Associated Lean formalization](https://github.com/1337isnot1337/solved-conjectures/issues/658)
 
+- Contact: [@100xluis on X](https://x.com/100xluis).
+
 ## Research status
 
 The length-50 counterexample is machine-verified. The smaller counterexample and infinite-family theorem have conventional mathematical proofs but are not yet Lean-formalized.
