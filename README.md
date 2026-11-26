@@ -47,7 +47,7 @@ lake env lean Audit.lean
 
 ## Authorship
 
-Research directed by [YOUR NAME], using Astra 6.2 through OpenAI Codex for mathematical discovery, proof development, computational verification, and Lean 4 formalization.
+Research directed by Luis Gonzalez, using Astra 6.2 through OpenAI Codex for mathematical discovery, proof development, computational verification, and Lean 4 formalization.
 
 ## Research status
 
