@@ -34,6 +34,7 @@ Both formal theorems depend exclusively on `propext`, `Classical.choice`, and `Q
 - [Full research manuscript](permutation-disproof.md)
 - [Two-page proof of the smaller counterexample](reduction/note.pdf)
 - [Explicit permutations and rank certificates](permutation-certificate.json)
+- [Smaller counterexample endpoints and rank sequence](reduction/literal-results.txt)
 
 ## Reproduce the formal verification
 
@@ -45,23 +46,24 @@ lake --wfail build
 lake env lean Audit.lean
 ```
 
+## Independent construction and attribution
+
+A disproof by aadrianvv was published on November 25, 2026, using a top permutation of length 109,118.
+
+This project presents an alternative construction with a Lean-verified counterexample of length 50, a smaller counterexample of length 38, and an infinite family with exponentially deep rank valleys.
+
+- [Disproof by aadrianvv](https://github.com/1337isnot1337/solved-conjectures/pull/651)
+- [Mathematical proof and endpoint lengths](https://github.com/1337isnot1337/solved-conjectures/blob/main/results/mcnamara-steingrimsson-rank-unimodality/PROOF.md)
+- [Associated Lean formalization](https://github.com/1337isnot1337/solved-conjectures/issues/658)
+
 ## Authorship
 
 Research directed by Luis Gonzalez, using Astra 6.2 through OpenAI Codex for mathematical discovery, proof development, computational verification, and Lean 4 formalization.
 
-## Independent discovery and priority
-
-This research was independently developed on November 25, 2026. Another disproof by aadrianvv appeared on the same day.
-
-The competing construction uses a top permutation of length 109,118. Our independently developed construction provides a Lean-verified counterexample of length 50 and a further reduction to length 38.
-
-- [Independent disproof by aadrianvv](https://github.com/1337isnot1337/solved-conjectures/pull/651)
-- [Associated Lean formalization](https://github.com/1337isnot1337/solved-conjectures/issues/658)
-
-- Contact: [@100xluis on X](https://x.com/100xluis).
+Contact: [@100xluis on X](https://x.com/100xluis).
 
 ## Research status
 
-The length-50 counterexample is machine-verified. The smaller counterexample and infinite-family theorem have conventional mathematical proofs but are not yet Lean-formalized.
+The length-50 counterexample is machine-verified. The smaller counterexample and infinite-family theorem have conventional mathematical proofs and computational verification but are not yet Lean-formalized.
 
-No claim of priority for the original disproof or global minimality is made. The work has not undergone external peer review.
+No claim of priority for the original disproof or global minimality of the counterexamples is made. The work has not undergone external peer review.
