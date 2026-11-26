@@ -147,7 +147,11 @@ McNamara presented the conjecture at FPSAC 2014. The journal version states it a
 
 Elizalde and McNamara proved rank-unimodality in the consecutive pattern order, where an occurrence must occupy consecutive positions. Tyler B. Hughes's November 2026 work addresses Question 9.5 on the Sperner property in the classical order. Its displayed finite witness has rank sizes $1,3,7,7,1$, which are unimodal. The separate results clarify why rank sizes must be checked for ordinary, arbitrary-position subsequences. [Elizalde and McNamara](https://arxiv.org/abs/1508.05963) · [Hughes's result and rank table](https://mathdiscoveries.org/results/pattern-poset-not-sperner)
 
-Searches through 25 November 2026 used the authors' names, both conjecture numbers, classical pattern intervals, nonunimodal rank sequences, separable permutations, generalized subword order, principal ideals, and indexed preprint and public research repositories. The benchmark repository yielded no matching published result. The available MathDB entry displayed zero solutions. The strongest evidence for prior open status is the recent specialist survey. I found no earlier disproof or theorem implying this counterexample. Indexing delays, private work and unpublished work limit the priority assessment. This work has received no external peer review. [MathDB problem record](https://mathdb.com/p/373198/mcnamara-steingrimsson-interval-rank-unimodality-conjecture) · [Benchmark catalogue](https://github.com/1337isnot1337/solved-conjectures) · [Vatter's survey](https://arxiv.org/abs/2602.16355)
+An independent disproof by aadrianvv appeared on November 25, 2026. That construction uses a top permutation of length 109,118. The present work provides substantially smaller counterexamples of lengths 50 and 38, together with an infinite-family construction.
+
+No claim of priority or global minimality is made.
+
+[Independent disproof](https://github.com/1337isnot1337/solved-conjectures/pull/651)
 
 ## Independent verification and Lean 4 plan
 
